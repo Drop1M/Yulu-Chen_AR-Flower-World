@@ -18,7 +18,7 @@ This is a Web AR interactive art piece based on p5.js. Users can capture the rea
 6. Allow camera access on your phone.
  <img src="readme-images/5.png" alt="Step 4" width="220">
 7. Move the phone camera around the environment, then tap the screen to generate flowers and swipe to release petals.
- ![Preview](readme-images/6.png)
+ <img src="readme-images/6.png" alt="Step 6" width="440">
 ## Interaction
 - **Tap**: grow flowers
 - **Swipe**: release falling petals
