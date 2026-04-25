@@ -24,10 +24,10 @@ This is a Web AR interactive art piece based on p5.js. Users can capture the rea
 - **Swipe**: release falling petals
 
 ## Technical Notes
-- Built with **p5.js**
-- Uses the **mobile phone camera** as a live background
+- Built with p5.js
+- Uses the mobile phone camera as a live background
 - Flower and petal colours are sampled from the surrounding environment
-- Designed for **mobile interaction**
+
 
 ## Important
 This project runs correctly in its full version on desktop. During mobile testing, it may be necessary to remove the start screen code to allow the camera-based interaction to function properly.
