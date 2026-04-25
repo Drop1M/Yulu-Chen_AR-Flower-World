@@ -12,10 +12,13 @@ This is a Web AR interactive art piece based on p5.js. Users can capture the rea
    npx localtunnel --port 5500
  ![Step 1](readme-images/1.png)
 4. Copy the generated localtunnel link into the default browser on your mobile phone.
+ ![Step 2](readme-images/2.png)
 5. Enter the corresponding IP access code if required.
+ ![Step 3](readme-images/3.png)
 6. Allow camera access on your phone.
+ ![Step 4](readme-images/5.png)
 7. Move the phone camera around the environment, then tap the screen to generate flowers and swipe to release petals.
-
+ ![Preview](readme-images/6.png)
 ## Interaction
 - **Tap**: grow flowers
 - **Swipe**: release falling petals
