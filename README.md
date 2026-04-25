@@ -10,13 +10,13 @@ This is a Web AR interactive art piece based on p5.js. Users can capture the rea
 3. In the VS Code terminal, type:
 
    npx localtunnel --port 5500
- ![Step 1](readme-images/1.png)
+ <img src="readme-images/1.png" alt="Step 1" width="440">
 4. Copy the generated localtunnel link into the default browser on your mobile phone.
- ![Step 2](readme-images/2.png)
+ <img src="readme-images/2.png" alt="Step 2" width="220">
 5. Enter the corresponding IP access code if required.
- ![Step 3](readme-images/3.png)
+ <img src="readme-images/3.png" alt="Step 3" width="220">
 6. Allow camera access on your phone.
- ![Step 4](readme-images/5.png)
+ <img src="readme-images/4.png" alt="Step 4" width="220">
 7. Move the phone camera around the environment, then tap the screen to generate flowers and swipe to release petals.
  ![Preview](readme-images/6.png)
 ## Interaction
