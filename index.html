@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Flower World</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+  </head>
+  <body>
+    <div id="start-screen" class="screen active">
+      <div class="panel">
+        <div class="title-main">Flower World</div>
+        <div class="title-sub">AR flower growth experience</div>
+
+        <div class="intro-block">
+          <div class="intro-line">Best viewed in landscape mode</div>
+          <div class="intro-line">Tap to grow flowers</div>
+          <div class="intro-line">Swipe to release petals</div>
+        </div>
+
+        <button id="start-btn">Enter</button>
+      </div>
+    </div>
+
+    <div id="ui-overlay" class="hidden">
+      <div class="minimal-guide">Tap: flowers · Swipe: petals</div>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>

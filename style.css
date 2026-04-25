@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+canvas {
+  display: block;
+}
+
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: transparent; /* Let the p5 canvas show through */
+}
+
+.screen.active {
+  display: flex;
+}
+
+/* No background panel, just the content */
+.panel {
+  width: min(84vw, 500px);
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  pointer-events: none; 
+}
+
+.title-main {
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #446bbc; /* Blue from your reference */
+  text-shadow: 2px 2px 0 #ffffff, 4px 4px 0 #fbd76a; /* Cute yellow shadow */
+}
+
+.title-sub {
+  font-size: 15px;
+  color: #aa9ece; /* Purple accent */
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.intro-block {
+  margin-bottom: 35px;
+}
+
+.intro-line {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  color: #7fc081; /* Green accent */
+}
+
+#start-btn {
+  pointer-events: auto;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 45px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  background: #f494b8; /* Pink button */
+  box-shadow: 0 6px 0 #e07aa0;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+#start-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #e07aa0;
+}
+
+#ui-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.minimal-guide {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.28);
+}
+
+@media (max-width: 680px) {
+  .title-main { font-size: 36px; }
+  .title-sub { font-size: 13px; }
+  .intro-line { font-size: 15px; }
+}
